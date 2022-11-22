@@ -24,7 +24,7 @@ Name|Pronouns|Initiation Semester|Hometown|Instrument|Majors|Minors (if not appl
 ### ```officers.csv```
 Name|Pronouns|Officer Position|Officer Email|Initiation Semester|Major|Instrument|Quote about brotherhood (if not applicable, type N/A)
 
-#### A note about ```officer_brotherscript.py```
+## A note about ```officer_brotherscript.py```
 Currently, Alpha Eta has 8 Elected Officer positions and 8 Appointed Officer positions, and it is hardcoded to reflect those values through lines 33 and 34:
 ```
 num_elected = 8
@@ -32,3 +32,9 @@ num_appointed = 8
 ```
 
 If these numbers change through the creation or removal of officer positions, you can change those variables and it will work as intended. But, ```officers.csv``` must be set-up in the order that you would like for it to appear on the website.
+
+## A note about pictures
+Your machine may have a case-insensitive system, but HTML is a case-sensitive language, so in order for images to be displayed correctly, they must be named with the right casing, as in ```First_Last.JPG```. The pictures also must be 1000 x 1333 pixels for uniformity and decent image quality.
+
+## A note to future Webmasters
+Keep the CSV files updated every semester! And if you feel like this can be improved in any way, use your best judgment, don't break anything, and as always, test your code before you push it.
