@@ -49,7 +49,7 @@ for row in open('conditionals.csv'):
 
 b_count = 0
 
-with open('conditionals.csv',newline='') as csvfile:
+with open('conditionals.csv',newline='', encoding="utf-8-sig") as csvfile:
     csvreader = csv.reader(csvfile)
     for row in csvreader:
         if count == 1:

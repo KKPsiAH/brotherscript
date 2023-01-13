@@ -34,7 +34,7 @@ num_elected = 8
 num_appointed = 8
 b_count = 0
 
-with open('officers.csv',newline='') as csvfile:
+with open('officers.csv',newline='', encoding="utf-8-sig") as csvfile:
     csvreader = csv.reader(csvfile)
     for row in csvreader:
         if count == 1:
