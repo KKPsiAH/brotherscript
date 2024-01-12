@@ -1,3 +1,5 @@
+#if you are getting errors, make sure there are no empty lines after data in officers.csv
+
 from airium import Airium
 import csv
 
