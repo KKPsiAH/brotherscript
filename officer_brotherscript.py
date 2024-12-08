@@ -9,7 +9,6 @@ b1_name = ""
 b1_filename = ""
 b1_pronouns = ""
 b1_position = ""
-b1_email = ""
 b1_class = ""
 b1_major = ""
 b1_instrument = ""
@@ -19,7 +18,6 @@ b2_name = ""
 b2_filename = ""
 b2_pronouns = ""
 b2_position = ""
-b2_email = ""
 b2_class = ""
 b2_major = ""
 b2_instrument = ""
@@ -44,11 +42,10 @@ with open('officers.csv',newline='', encoding="utf-8-sig") as csvfile:
             b1_filename = b1_name.replace(' ', '_') + ".JPG"
             b1_pronouns = row[1]
             b1_position = row[2]
-            b1_email = row[3]
-            b1_class = row[4]
-            b1_major = row[5]
-            b1_instrument = row[6]
-            b1_blurb = row[7]
+            b1_class = row[3]
+            b1_major = row[4]
+            b1_instrument = row[5]
+            b1_blurb = row[6]
             count += 1
             b_count += 1
             if b_count <= num_elected:
@@ -67,8 +64,6 @@ with open('officers.csv',newline='', encoding="utf-8-sig") as csvfile:
                                     a("<i>" + b1_pronouns + "</i>")
                                 with a.h5(klass = "card-text"):
                                     a("<strong>" + b1_position + "</strong>")
-                                with a.h6(klass = "card-text"):
-                                    a("<strong>" + b1_email + "</strong>")
                                 with a.p(klass = "card-text"):
                                     a("<strong>Semester initiated: " + b1_class + "</strong>")
                                 with a.p(klass = "card-text"):
@@ -83,11 +78,10 @@ with open('officers.csv',newline='', encoding="utf-8-sig") as csvfile:
             b2_filename = b2_name.replace(' ', '_') + ".JPG"
             b2_pronouns = row[1]
             b2_position = row[2]
-            b2_email = row[3]
-            b2_class = row[4]
-            b2_major = row[5]
-            b2_instrument = row[6]
-            b2_blurb = row[7]
+            b2_class = row[3]
+            b2_major = row[4]
+            b2_instrument = row[5]
+            b2_blurb = row[6]
             count = 1
             b_count += 1
             if b_count <= num_elected:
@@ -105,8 +99,6 @@ with open('officers.csv',newline='', encoding="utf-8-sig") as csvfile:
                                 a("<i>" + b1_pronouns + "</i>")
                             with a.h5(klass = "card-text"):
                                 a("<strong>" + b1_position + "</strong>")
-                            with a.h6(klass = "card-text"):
-                                a("<strong>" + b1_email + "</strong>")
                             with a.p(klass = "card-text"):
                                 a("<strong>Semester initiated: " + b1_class + "</strong>")
                             with a.p(klass = "card-text"):
@@ -126,8 +118,6 @@ with open('officers.csv',newline='', encoding="utf-8-sig") as csvfile:
                                 a("<i>" + b2_pronouns + "</i>")
                             with a.h5(klass = "card-text"):
                                 a("<strong>" + b2_position + "</strong>")
-                            with a.h6(klass = "card-text"):
-                                a("<strong>" + b2_email + "</strong>")
                             with a.p(klass = "card-text"):
                                 a("<strong>Semester initiated: " + b2_class + "</strong>")
                             with a.p(klass = "card-text"):

@@ -3,3 +3,4 @@ generated_conditional.html
 generated_officers.html
 venv
 __pycache__
+.DS_store
